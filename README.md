@@ -12,8 +12,8 @@ Basically, you create a Component Script that implements IPunPrefabPool and feed
 
 ## Notes
 
--- You need to keep your prefab inside a Resources folder anyway, It's important for PUN to load that prefab and analyze photonViews to assign viewIds. Note that there are no instantiation, it's only loaded
--- On the Prefab instance, use OnPhotonInstantiate() to catch initialization, Start() and OnEnabled() are not suitable for reliable data across the various cases of instantiation and pool usage accross the network.
+- You need to keep your prefab inside a Resources folder anyway, It's important for PUN to load that prefab and analyze photonViews to assign viewIds. Note that there are no instantiation, it's only loaded  
+- On the Prefab instance, use OnPhotonInstantiate() to catch initialization, Start() and OnEnabled() are not suitable for reliable data across the various cases of instantiation and pool usage accross the network.  
 
  Knowing this, that's about it really...
 
