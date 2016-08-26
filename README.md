@@ -10,6 +10,8 @@ This repository is a simple demo for integrating Pooling Systems and PUN.
 
 Basically, you create a Component Script that implements IPunPrefabPool and feed instances using your preffered Pooling system.
 
+the main script you should be interested in is  https://github.com/jeanfabre/Exitgames--PUN--Pooling_u4/blob/master/Assets/PUN%20Custom%20Samples/SmartPool/Scripts/PunSmartPoolBridge.cs
+
 ## Notes
 
 - You need to keep your prefab inside a Resources folder anyway, It's important for PUN to load that prefab and analyze photonViews to assign viewIds. Note that there are no instantiation, it's only loaded  
