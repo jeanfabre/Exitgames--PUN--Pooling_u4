@@ -8,9 +8,7 @@ This repository is a simple demo for integrating Pooling Systems and PUN.
 - PUN 1.74: https://www.assetstore.unity3d.com/en/#!/content/1786  
 - SmartPool 1.02: https://www.assetstore.unity3d.com/en/#!/content/5911  
 
-Basically, you create a Component Script that implements IPunPrefabPool and feed instances using your preffered Pooling system.
-
-the main script you should be interested in is  https://github.com/jeanfabre/Exitgames--PUN--Pooling_u4/blob/master/Assets/PUN%20Custom%20Samples/SmartPool/Scripts/PunSmartPoolBridge.cs
+Basically, you create a Component Script that implements IPunPrefabPool and feed instances using your preffered Pooling system: in our case, this is [PunSmartPoolBridge.cs](https://github.com/jeanfabre/Exitgames--PUN--Pooling_u4/blob/master/Assets/PUN%20Custom%20Samples/SmartPool/Scripts/PunSmartPoolBridge.cs) script.
 
 ## Notes
 
