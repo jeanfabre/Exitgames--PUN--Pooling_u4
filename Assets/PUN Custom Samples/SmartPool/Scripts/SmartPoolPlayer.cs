@@ -12,7 +12,6 @@ public class SmartPoolPlayer : Photon.PunBehaviour {
 
 	// not good as it happens too early when instance is reused.
 	void OnEnable () {
-
 		Debug.Log("SmartPoolPlayer Instance OnEnable: ownerID:"+this.photonView.ownerId+" isMine:"+this.photonView.isMine+" viewID:"+this.photonView.viewID);
 	}
 
