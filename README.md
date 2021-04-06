@@ -1,6 +1,10 @@
 # Exitgames--PUN--Pooling_u4
 Unity Exitgames PUN pooling demo using SmartPool
 
+[![stability-deprecated](https://img.shields.io/badge/stability-deprecated-red.svg)](https://hutonggames.com/index.html)
+
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](https://hutonggames.com/index.html)
+
 
 This repository is a simple demo for integrating Pooling Systems and PUN. 
 
